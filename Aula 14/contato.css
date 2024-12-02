@@ -1,0 +1,152 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fundo claro */
+    color: rgba(43, 3, 59, 0.799); /* Cor do texto */
+}
+
+/* Cabeçalho */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7575ae; /* Fundo do cabeçalho */
+    padding: 10px 20px;
+    color: #fff; /* Texto branco */
+}
+
+.top-bar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px; /* Borda arredondada */
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.user-options a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Conteúdo principal */
+.contact-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    width: 30%;
+    color: rgba(43, 3, 59, 0.799); /* Cor do texto */
+}
+
+.contact-form {
+    width: 65%;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: #7575ae; /* Cor do texto */
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white; /* Fundo do campo de texto */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px; /* Borda arredondada */
+    border: 1px solid #fef6f6;
+    outline: none;
+    
+}
+
+.contact-form button:hover {
+    background-color: #e4e5eb; /* Botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #efeff4; /* Fundo do rodapé */
+    color: #b9b3b3;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 30%;
+    color: #7575ae;
+}
+
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #7575ae; /* Títulos brancos */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: #7575ae;
+}
+
+.footer-section ul li a {
+    color:#7575ae; /* Links claros */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+    color: #7575ae; /* Links ao passar o mouse */
+}
+
+.footer-section a img {
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 30px; /* Borda arredondada */
+
+
+}
+.copyright {
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff; /* Cor similar ao exemplo */
+    background-color: #7575ae; /* Fundo similar ao exemplo */
+    padding: 50px 0;
+    width: 100%;
+}
